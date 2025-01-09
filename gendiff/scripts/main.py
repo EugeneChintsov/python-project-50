@@ -2,7 +2,8 @@ from gendiff.modules import greet
 
 
 def main():
-    greet()
+    args = greet()
+    print(args)
 
 if __name__ == "__main__":
     main()
