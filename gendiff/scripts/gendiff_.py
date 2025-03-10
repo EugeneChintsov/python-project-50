@@ -1,9 +1,12 @@
-from gendiff.modules import greet, generate_diff
+#!usr/bin/env python3
+from gendiff.modules.arg_parsing import get_args
+from gendiff.main import generate_diff
 
 
 def main():
-    print(generate_diff(greet))
-
+    args = get_args()
+    print(generate_diff(args.first, args.second, args.format))
+    
 
 if __name__ == "__main__":
     main()
