@@ -6,12 +6,11 @@
             "narrow": 77
         },
         "second": "40"
-        },
+    },
     "verbose": true,
     "host": "hexlet.io",
     "fruits": {
         "apple": {
-            "weight": 44,
             "price": 244
         },
         "orange": {

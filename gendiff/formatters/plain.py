@@ -1,6 +1,8 @@
-from typing import Dict, Any
+from typing import Any, Dict
 
 
-# TO DO:
 def apply_plain(data: Dict[str, Any]) -> str:
-    return None
+    return 'PLAIN'
+
+#plain 2 function:
+# walk_tree(), format_value()
