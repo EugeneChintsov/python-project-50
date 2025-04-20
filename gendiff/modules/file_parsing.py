@@ -11,7 +11,9 @@ def get_file_type(file_full_name: str) -> str:
         return 'json'
     elif file_full_name.endswith(('.yml', '.yaml')):
         return 'yaml'
-    raise ValueError(f"Ошибка: неподдерживаемый формат файла '{file_full_name}'") 
+    raise ValueError(
+        f"Ошибка: неподдерживаемый формат файла '{file_full_name}'"
+    ) 
 
 
 def parse_data(data: str, file_type: str) -> dict:
