@@ -52,7 +52,10 @@ cd python-project-50
   <a href="https://asciinema.org/a/QgWSlVmoXzIFgrm5UZjhfEdzj" target="_blank"><img src="https://asciinema.org/a/QgWSlVmoXzIFgrm5UZjhfEdzj.svg" /></a>
 
 - Difference in "stylish" format:
+  <a href="https://asciinema.org/a/PjJ7hSUyW9E8uDBh6l0NIAEwX" target="_blank"><img src="https://asciinema.org/a/PjJ7hSUyW9E8uDBh6l0NIAEwX.svg" /></a>
 
 - Difference in "json" format:
+  <a href="https://asciinema.org/a/n68w9x365599vR68xxbRI1mMN" target="_blank"><img src="https://asciinema.org/a/n68w9x365599vR68xxbRI1mMN.svg" /></a>
 
 - Difference in "plain" format:
+  <a href="https://asciinema.org/a/PjJ7hSUyW9E8uDBh6l0NIAEwX" target="_blank"><img src="https://asciinema.org/a/DzgSsQFeRur4zookrieLRyiVP.svg" /></a>
