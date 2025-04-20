@@ -2,4 +2,4 @@
 
 [![Actions Status](https://github.com/EugeneChintsov/python-project-50/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/EugeneChintsov/python-project-50/actions)
 
-[![Action Status](https://github.com/eugenechintsov/python-project-50/actions/workflows/gendiff-check.yaml/badge.svg)](https://github.com/eugenechintsov/python-project-50/actions/workflows/gendiff-check.yaml)
+[![gendiff-check](https://github.com/EugeneChintsov/python-project-50/actions/workflows/gendiff-check.yml/badge.svg)](https://github.com/EugeneChintsov/python-project-50/actions/workflows/gendiff-check.yml)
