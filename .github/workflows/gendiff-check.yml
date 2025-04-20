@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install uv
           uv pip install --system --no-deps .
-          uv pip install --system --deps
+          uv pip install --system pytest pytest-cov ruff
 
       - name: Run Ruff linter
         run: uv run ruff check .
