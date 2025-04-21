@@ -24,13 +24,11 @@ def get_expected(file_name: str) -> str:
         "first_file, second_file, format, expected",
         [
             ("file1.json", "file2.json", "stylish", "result_stylish"),
-            # ("file1.json", "file2.json", "plain", "result_plain"),
-            # ("file1.json", "file2.json", "json", "result_json"),
-            # ("file1.yaml", "file2.yaml", "stylish", "result_stylish"),
-            # ("file1.yaml", "file2.yaml", "plain", "result_plain"),
-            # ("file1.yml", "file2.yml", "json", "result_json"),
+            ("file1.json", "file2.json", "plain", "result_plain"),
+            ("file1.json", "file2.json", "json", "result_json"),
+            ("file1.yml", "file2.yml", "json", "result_json"),
             ("file1.yml", "file2.yml", "stylish", "result_stylish"),
-            # ("file1.yml", "file2.yml", "plain", "result_plain"),
+            ("file1.yml", "file2.yml", "plain", "result_plain"),
         ]
 )
 def test_gen_diff(

@@ -18,7 +18,9 @@
                 "status": "updated",
                 "value": {
                     "removed": true,
-                    "added": null
+                    "added": {
+                        "key": "value"
+                    }
                 }
             },
             "setting4": {
@@ -40,7 +42,7 @@
                             "wow": {
                                 "status": "updated",
                                 "value": {
-                                    "removed": "",
+                                    "removed": "too much",
                                     "added": "so much"
                                 }
                             }
@@ -101,6 +103,63 @@
                 }
             },
             "fee": 100500
+        }
+    },
+    "group4": {
+        "status": "nested",
+        "value": {
+            "default": {
+                "status": "updated",
+                "value": {
+                    "removed": null,
+                    "added": ""
+                }
+            },
+            "foo": {
+                "status": "updated",
+                "value": {
+                    "removed": 0,
+                    "added": null
+                }
+            },
+            "isNested": {
+                "status": "updated",
+                "value": {
+                    "removed": false,
+                    "added": "none"
+                }
+            },
+            "key": {
+                "status": "added",
+                "value": false
+            },
+            "nest": {
+                "status": "nested",
+                "value": {
+                    "bar": {
+                        "status": "updated",
+                        "value": {
+                            "removed": "",
+                            "added": 0
+                        }
+                    },
+                    "isNested": {
+                        "status": "removed",
+                        "value": true
+                    }
+                }
+            },
+            "someKey": {
+                "status": "added",
+                "value": true
+            },
+            "type": {
+                "status": "updated",
+                "value": {
+                    "removed": "bas",
+                    "added": "bar"
+                }
+            }
         }
     }
 }
