@@ -18,6 +18,9 @@ def format_value(value: Any) -> str:
     elif isinstance(value, bool | None):
         return json.dumps(value)
     
+    elif isinstance(value, int | float):
+        return str(value)
+
     return f"'{value}'"
 
 
