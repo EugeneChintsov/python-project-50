@@ -35,5 +35,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         with:
           projectBaseDir: .
+          args: >
+            -Dsonar.projectKey=EugeneChintsov_python-project-50
+            -Dsonar.organization=eugenechintsov
         env:
           SONAR_TOKEN: ${{ secrets.GITHUBPROJECT50 }}
