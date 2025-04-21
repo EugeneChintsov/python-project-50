@@ -128,7 +128,7 @@ def walk_tree(data: dict[str, Any], depth: int) -> str:
                 )
             )
 
-        if status == 'nested':
+        elif status == 'nested':
             lines.append(
                 TEMPLATE.format(
                     indent=deep_indent,
