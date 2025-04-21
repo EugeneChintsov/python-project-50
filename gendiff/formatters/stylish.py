@@ -111,20 +111,21 @@ def walk_tree(data: dict[str, Any], depth: int) -> str:
                     formated_value=format_dict(value, next_depth),
                 )            
             )
-        
+
         elif status == 'updated':
-            lines.append(
-                TEMPLATE.format(
-                    indent=indent + MAPPING.get("added"),
-                    key=key,
-                    formated_value=format_dict(value["added"], next_depth),
-                )
-            )
             lines.append(
                 TEMPLATE.format(
                     indent=indent + MAPPING.get("removed"),
                     key=key,
                     formated_value=format_dict(value["removed"], next_depth),
+                )
+            )
+
+            lines.append(
+                TEMPLATE.format(
+                    indent=indent + MAPPING.get("added"),
+                    key=key,
+                    formated_value=format_dict(value["added"], next_depth),
                 )
             )
 

@@ -1,6 +1,9 @@
 install:
 	uv sync
 
+installdev:
+	uv pip install --editable .[dev]
+
 run:
 	uv run gendiff
 
