@@ -21,4 +21,12 @@ check: test lint
 build:
 	uv build
 
-.PHONY: install test lint selfcheck check build
+package-build:
+	python3 -m pip install dist/*.whl
+
+package-install: install build package-build
+
+package-uninstall:
+	python3 -m pip uninstall hexlet-code || True
+
+.PHONY: install test lint selfcheck check build package-build package-install package-uninstall
