@@ -31,17 +31,17 @@ In order to install the project, you will need in your working environment:
 
 **1. Clone git repository**
 ```
-git clone https://github.com/EugeneChintsov/python-project-50.git
+git clone https://github.com/EugeneChintsov/python-project-50.git $$ cd ./python-project-50
 ```
 
-**2. Change directory**
+**2. Install project**
 ```
-cd python-project-50
+make package-install
 ```
 
-**3. Install UV project**
+**3. Uninstall project**
 ```
-   make install
+make package-uninstall
 ```
 
 ## Demonstration
