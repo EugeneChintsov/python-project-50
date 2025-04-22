@@ -26,11 +26,9 @@ def parse_data(data: str, file_type: str) -> dict:
         return yaml.safe_load(data)
 
 
-def get_data(file_full_name: str) -> dict: 
+def get_data(file_full_name: str) -> str: 
     """
     Retrieves and parses data from a file based on its format.
     """
-    file_type = get_file_type(file_full_name)
     with open(file_full_name, "r", encoding="utf-8") as file:
-        data = file.read()
-        return parse_data(data, file_type)
+        return file.read()
