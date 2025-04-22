@@ -32,12 +32,15 @@ def get_expected(file_name: str) -> str:
         ]
 )
 def test_gen_diff(
-    first_file: str, second_file: str, format: str, expected: str
+    first_file: str,
+    second_file: str,
+    format: str,
+    expected: str,
 ) -> None:
     """Tests the `generate_diff` function with different input formats."""
     result = generate_diff(
         file_path(first_file),
         file_path(second_file),
-        format
+        format,
     )
     assert result == get_expected(expected)
